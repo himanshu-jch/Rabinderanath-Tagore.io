@@ -1,0 +1,71 @@
+/* CSS to position the image in the top-right corner */
+img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+body {
+    font-size: 36px; /* You can change this value to increase or decrease the font size */
+}
+
+.image-container {
+  text-align: center;
+}
+
+.image-container img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 1200px;
+  margin-right: 55px; /* Adjust this value as needed to control the right shift */
+}
+
+
+/* start heading part*/
+
+.heading{
+    background-color: brown;
+    color: white;
+    text-align: center;
+}
+
+.rabindra{
+   
+    top: 130px;
+    right: 0px;
+    height: 850px;
+    width: 450px;
+    margin: 20px;
+    border: 1px solid blue;
+    border-radius: 20%;
+}
+
+
+.bodysi{
+    height:10000 ;
+    width: 1000px;
+}
+
+
+.group{
+    
+    display: -webkit-box;
+     margin-left: auto; 
+     top: 1000px;
+     border: 1px inset blue;
+     height: 300px ;
+     right: 80px;
+     border-radius: 20%;
+}
+
+
+/* Assuming your container has a defined height */
+.aboutr {
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: bottom; /* Centers content vertically */
+    height: 325px; /* Adjust this height as needed */
+    margin-top: 65px;
+    color: green;
+  }
+
+
